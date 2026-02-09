@@ -1,0 +1,7 @@
+--- Estadísticas: test.txt ---
+Media: 17.5
+Mediana: 15.0
+Moda: 10.0
+Desviación Estándar: 8.2915619758885
+Varianza: 68.75
+Tiempo de ejecución: 0.0001 segundos

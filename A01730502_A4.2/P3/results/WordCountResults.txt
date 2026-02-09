@@ -1,0 +1,10 @@
+--- Conteo de Palabras: test_words.txt ---
+PALABRA              FRECUENCIA
+------------------------------
+hola                 2         
+calidad              2         
+mundo                1         
+python               1         
+software             1         
+------------------------------
+Tiempo de ejecución: 0.0001 segundos
