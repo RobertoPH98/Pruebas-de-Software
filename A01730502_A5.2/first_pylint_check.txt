@@ -1,0 +1,14 @@
+************* Module [cite:
+[cite::1:0: F0001: No module named [cite: (fatal)
+************* Module 170,
+170,:1:0: F0001: No module named 170, (fatal)
+************* Module 191]
+191]:1:0: F0001: No module named 191] (fatal)
+************* Module computeSales
+computeSales.py:73:39: C0303: Trailing whitespace (trailing-whitespace)
+computeSales.py:81:0: C0304: Final newline missing (missing-final-newline)
+computeSales.py:1:0: C0103: Module name "computeSales" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 9.23/10, -9.23)
+

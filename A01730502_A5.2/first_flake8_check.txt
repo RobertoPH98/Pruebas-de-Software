@@ -1,0 +1,6 @@
+159,:0:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '159,'
+168]:0:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '168]'
+[cite::0:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '[cite:'
+computeSales.py:73:40: W291 trailing whitespace
+computeSales.py:81:1: W293 blank line contains whitespace
+computeSales.py:81:5: W292 no newline at end of file
