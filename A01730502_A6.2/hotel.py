@@ -1,3 +1,8 @@
+"""
+Módulo que contiene la clase Hotel para la gestión de reservaciones.
+Este módulo permite realizar operaciones CRUD sobre hoteles usando JSON.
+"""
+
 import json
 import os
 
