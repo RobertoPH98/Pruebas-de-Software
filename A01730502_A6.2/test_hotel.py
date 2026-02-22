@@ -1,3 +1,8 @@
+"""
+Módulo de pruebas unitarias para la clase Hotel.
+Incluye casos de prueba negativos para validar la robustez del sistema.
+"""
+
 import unittest
 from hotel import Hotel
 

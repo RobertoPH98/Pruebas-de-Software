@@ -49,4 +49,16 @@ class Hotel:
         with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4)
 
+    def delete_hotel(self, hotel_id):
+            """Elimina un hotel por su ID."""
+            hotels = self.display_hotel_info()
+            initial_count = len(hotels)
+            # Filtramos la lista para quitar el ID solicitado
+            hotels = [h for h in hotels if h.get('id') != hotel_id]
+            
+            if len(hotels) < initial_count:
+                self._save_to_file(hotels)
+                return True
+            return False  # Caso negativo: el ID no existía
+
     # Implementar también: delete_hotel, modify_hotel...
